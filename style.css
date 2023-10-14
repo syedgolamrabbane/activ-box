@@ -478,5 +478,374 @@ a {
     padding-bottom: 20px;
 
 }
-/* - ----------------copyright------------ */
+/* - ----------------copyright end------------ */
+
+/*
+ ==============================================
+    -------------- Responsive -----------------
+ ================================================ */
+
+
+@media screen and (max-width: 969px) {
+    .header-menu {
+        display: none;
+    }
+
+    .menu-icon {
+        display: inline-block;
+    }
+
+
+    .banner-section .container h1 {
+        font-size: 45px;
+        line-height: 50px;
+        padding: 0 80px;
+    }
+
+    .banner-section .container p {
+        margin-bottom: 70px;
+        padding: 0 104px;
+    }
+
+    .service-section .container {
+        column-gap: 2%;
+    }
+
+    .service-section .container .service-item {
+        max-width: 32%;
+
+    }
+    /* -------------------team section ---------------*/
+    .team-section .container .team-member {
+        max-width: calc(50% - 22.5px);
+    } 
+    .team-section {
+        padding: 50px 0;
+    }
+    
+    /*------------ testimonial content ---------------*/
+    .testimonial-content .tc-item {
+        max-width: 100%;
+    }
+    .testimonoal-text {
+        padding-top: 85px;
+        padding-left: 66px;
+        padding-bottom: 60px;
+        padding-right: 80px;
+    }
+    .indicator {
+        top: 95%;
+        left: 40%;
+        transform: translate(-95%, - 40%);
+    }
+    .testimonoal-text p:first-of-type {
+        font-size: 24px;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .header-section .container {
+        height: 84px;
+    }
+
+    .banner-section {
+        padding-top: 190px;
+        padding-bottom: 110px;
+    }
+
+    .banner-section .container h1 {
+        font-size: 38px;
+        line-height: 42px;
+        margin-bottom: 28px;
+        padding: 0 28px;
+    }
+
+    .banner-section .container p {
+        margin-bottom: 50px;
+        padding: 0 54px;
+        font-size: 18px;
+    }
+
+    .banner-section .container a {
+        padding: 18px 28px;
+    }
+
+    /* ----------------- service section ---------------- */
+    .service-section {
+        padding: 90px 0;
+    }
+
+    .service-section .container .service-item {
+        max-width: 47.5%;
+
+    }
+
+    .service-section .container .service-item a img {
+        width: 80%;
+    }
+
+    /* -------------- gallery dection ---------------- */
+    .gallery-section .gallery-item {
+        max-width: calc(50% - 1px);
+        max-height: 330px;
+
+    }
+    /* ----------------- Downelode ----------------- */
+
+    .download-section h2 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    
+    }
+    
+    .download-section p {
+        font-size: 14px;
+    
+    }
+    
+    .download-section a {
+        padding: 16px 60px;
+        font-size: 13px;
+    }
+    /*--------------- footer section -------------- */
+    .footer-section .container .footer-item{
+        max-width: 45%;
+        text-align: center;
+    }
+    .team-member_social-icon {
+        padding-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    .header-section .container {
+        height: 74px;
+    }
+
+    .menu-icon i {
+        font-size: 22px;
+
+    }
+
+    .header-logo a img {
+        width: 80%;
+    }
+
+    .banner-section {
+        padding-top: 170px;
+        padding-bottom: 90px;
+    }
+
+    .banner-section .container h1 {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 24px;
+        padding: 0 10px;
+    }
+
+    .banner-section .container p {
+        margin-bottom: 40px;
+        padding: 0 14px;
+        font-size: 16px;
+    }
+
+    .banner-section .container a {
+        padding: 12px 22px;
+    }
+
+    /* ----------------- service section ---------------- */
+    .service-section .container .service-item {
+        max-width: 100%;
+
+    }
+
+    .service-section .container .service-item {
+        padding: 0 44px;
+
+    }
+
+    .service-section .container {
+        row-gap: 54px;
+    }
+
+    .service-section .container .service-item h3 {
+        margin-top: 22px;
+        margin-bottom: 18px;
+    }
+
+    .service-section {
+        padding: 74px 0;
+    }
+
+    /* -------------- gallery section ---------------- */
+    
+    .gallery-section .gallery-item {
+        max-width: calc(100% - 1px);
+        max-height: 330px;
+        width: 100%;
+    }
+
+    /*------------------ team section -------------------*/
+    .team-section .container .team-member {
+        max-width: calc(100% - 22.5px);
+    }
+    .team-member{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-section {
+        padding: 10px 0;
+    }
+    .team-member_social-link {
+        margin-bottom: 10px;
+    }
+    .team-member h3 {
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+    .team-member p:last-of-type {
+        margin: 10px 0;
+    }
+
+
+    /* ----------------- Downelode ----------------- */
+
+    .download-section h2 {
+        font-size: 18px;
+        margin-bottom: 16px;
+    
+    }
+    
+    .download-section p {
+        font-size: 10px;
+    
+    }
+    
+    .download-section a {
+        padding: 16px 30px;
+        font-size: 13px;
+    }
+    /*--------------- footer section -------------- */
+    .footer-section .container .footer-item{
+        max-width: 100%;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-section .container {
+        padding-top: 30px;
+        padding-bottom: 38px;
+        align-items: center;
+    
+    }
+    .team-member_social-icon {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .header-section .container {
+        height: 64px;
+    }
+
+    .menu-icon i {
+        font-size: 18px;
+
+    }
+
+    .header-logo a img {
+        width: 70%;
+    }
+
+    .banner-section .container h1 {
+        font-size: 24px;
+        line-height: 32px;
+        padding: 0;
+    }
+
+    .banner-section .container p {
+        margin-bottom: 34px;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .banner-section .container a {
+        padding: 10px 18px;
+    }
+
+    /* ----------------- service section ---------------- */
+    .service-section .container .service-item {
+        padding: 0 24px;
+
+    }
+
+    .service-section .container {
+        row-gap: 36px;
+    }
+
+    .service-section .container .service-item a img {
+        width: 64%;
+    }
+
+    .service-section {
+        padding: 64px 0;
+    }
+
+    /* ------------ Footer ------------- */
+}
+
+@media screen and (max-width: 350px) {
+    .header-section .container {
+        height: 54px;
+    }
+
+    .banner-section .container h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .banner-section .container p {
+        margin-bottom: 28px;
+        font-size: 14px;
+    }
+
+    .banner-section .container a {
+        padding: 10px 14px;
+    }
+
+    /* ----------------- service section ---------------- */
+    .service-section .container .service-item {
+        padding: 0 8px;
+
+    }
+
+    /* ----------------- Downelode ----------------- */
+
+
+    .download-section h2 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    
+    }
+    
+    
+    .download-section a {
+        padding: 14px 30px;
+        font-size: 13px;
+    }
+
+    .footer-section .container .footer-item{
+        width: 100%;
+        text-align: center;
+    }
+    /* -------------- Responsive ----------------- */
+
+
+}
 
