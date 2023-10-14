@@ -285,3 +285,65 @@ a {
     color: orchid;
 }
 /* -------------------Teme section---------------- */
+/* -------------testimonial section--------------- */
+.testimonial-section {
+    background-color: #53354A;
+}
+
+.testimonial-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.testimonial-content .tc-item {
+    max-width: 50%;
+}
+
+.testimonial-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.testimonoal-text {
+    padding:  45px 50px 80px 50px;
+}
+
+.testimonoal-text p:first-of-type {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.testimonoal-text p:last-of-type {
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    margin-top: 30px;
+    text-transform: 30px;
+}
+
+.indicator {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-90%, - 70%);
+    display: flex;
+    column-gap: 8px;
+}
+
+.indicator-item {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #897483;
+}
+
+.indicator-item:nth-child(2) {
+    background-color: #ffff;
+}
+/* -------------testimonial section--------------- */
