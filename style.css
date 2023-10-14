@@ -218,3 +218,70 @@ a {
     visibility: visible;
 }
  /* --------------------- Gallery section end --------------- */
+ /* -------------------Teme section---------------- */
+.team-section {
+    padding: 100px 0;
+}
+
+.team-section .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-section .container .team-member {
+    max-width: calc(25% - 22.5px);
+}
+
+.team-member h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #2D3033;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.team-member p:first-of-type {
+    color: #e84545;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.team-member p:last-of-type {
+    color: #6C7279;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+.team-member_social-link {
+    display: flex;
+    column-gap: 4px;
+}
+
+.team-member_social-link a {
+    border: 1px solid #E8ECEE;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.team-member_social-link a i {
+    color: #C6CACC;
+    transition: 0.4s;
+}
+
+.team-member_social-link a:hover {
+    border: 1px solid #e84545;
+}
+
+.team-member_social-link a:hover i {
+    color: orchid;
+}
+/* -------------------Teme section---------------- */
